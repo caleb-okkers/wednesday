@@ -110,6 +110,41 @@
             <li>Add to tech stack and excel at Life Choices</li>
         </ol>
     </section>
+    <section>
+      <h2>Register New Person</h2>
+
+      <form action="/submit_registration" method="post">
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name" required>
+        <br><br>
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" required>
+        <br><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required>
+        <br><br>
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+        </select>
+        <br><br>
+        <label for="nationality">Nationality:</label><br>
+        <input type="text" id="nationality" name="nationality" required>
+        <br><br>
+        <label for="ethnicity">Ethnicity:</label><br>
+        <input type="text" id="ethnicity" name="ethnicity" required>
+        <br><br>
+        <label for="year_matriculated">Year Matriculated:</label><br>
+        <input type="number" id="year_matriculated" name="year_matriculated" required>
+        <br><br>
+        <input type="submit" value="Register">
+      </form>
+    </section>
   </main>   
 </body>
 </html>
