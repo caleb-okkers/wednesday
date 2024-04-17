@@ -1,0 +1,47 @@
+body{
+    font-size: 16px;
+
+}
+
+h1 {
+    color: rgb(7, 7, 67);
+}
+
+h3 {
+    color: rgb(7, 7, 67);
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+table {
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 0.5%;
+}
+
+tr {
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+th {
+    border: 1px solid black;
+    width: 12em;
+    background-color: rgb(5, 5, 47);
+    border-radius: 2%;
+    text-align: left;
+    color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 2%;
+    text-align: left;
+}
+
